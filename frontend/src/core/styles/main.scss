@@ -1,0 +1,12 @@
+@import "./components/hotel";
+@import "./components/hotels";
+@import "./components/hotel-details";
+
+.App {
+    padding: 5%;
+}
+
+h1, h2, h3, h4, h5, h6, p, a {
+    font-family: "Roboto", sans-serif;
+}
+

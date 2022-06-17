@@ -1,0 +1,10 @@
+.hotel-details img {
+  width: 100%;
+}
+
+.hotel-details {
+  &__map {
+    height: 300px;
+    margin-top: 3%;
+  }
+}

@@ -1,0 +1,36 @@
+.hotel img {
+  height: 200px;
+  width: 100%;
+}
+
+.hotel > div {
+  height: 100%;
+}
+
+.hotel a {
+  text-decoration: none;
+}
+
+.hotel {
+
+  &__actions {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__subtitle {
+    display: flex;
+  }
+
+  &__subtitle span:last-child {
+    margin-left: 2%;
+    display: flex;
+  }
+
+  &__subtitle span svg {
+    width: 18px;
+    height: 18px;
+    margin: auto;
+    color: gold;
+  }
+}
